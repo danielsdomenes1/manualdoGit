@@ -1,11 +1,60 @@
-.daniel{
-    color: #1905fc;
+*{
+    margin:0;
+    font-family:'open Sans',sans-serif;
 }
-h2{
+
+body{
+    font-size:30px;
+}
+h1{
+
+    color: #1905fc;
+    text-align: center;
+    font-size: 75px;
+}
+.name{
     color: #03fe0b;
+}
+header{
+    background-color: aqua;
+    width: 100%;
 }
 img{
     width: 40%;
-    margin: 0 auto;
-    height: 950px;
+    border-radius: 30px;
+    display: block;
+}
+main{
+    background:url(./img/pexels-josh-hild-4424567.jpg) no-repeat;
+    background-size: cover;
+}
+p,ul{
+    color:#09ff00;
+}
+h2{
+    color: #fff;
+}
+a:visited{
+    color: #dd01ff;
+}
+.todo{
+    color: #f2ff00;
+}
+footer{
+    background-color:aqua;
+    width:100%; 
+    height: 50px; 
+}
+
+footer p {
+    font-size: 16px;
+    color: #000;
+}
+
+.ancora{
+    color: #000;
+}
+
+.data{
+    color: #cc0000;
 }
